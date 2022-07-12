@@ -1,3 +1,4 @@
+
 // // let base = prompt('Введите число');
 // // let power = prompt('Введите степень');
 
@@ -192,57 +193,13 @@
 // }
 // console.log(calculateTotalPrice([12, 85, 37, 4]));
 
-// function findLongestWord(string) {
-//   // Change code below this line
-//     const splitedString = string.split(' ');
-//     let longestWord = splitedString[0];
-    
-//     console.log(longestWord.length);
-
-//     for (const word of splitedString) {
-//         if (word.length > longestWord.length) {
-//             longestWord = word;
-//         }
-//     }
-    
-//     return longestWord;
-//   // Change code above this line
-// }
-
-// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
 
 
 
-// function createArrayOfNumbers(min, max) {
-//   const numbers = [];
-//   // Change code below this line
-//     for (let i = min; i <= max; i += 1) {
-//         console.log(i);
-//     numbers.push(i);
-//   }
-//   // Change code above this line
-//   return numbers;
-// }
-
-// console.log(createArrayOfNumbers(14, 17)); 
 
 
-// function filterArray(numbers, value) {
-//    // Change code below this line
-//   const newArr = [];
 
-//   for (const number of numbers) {
-//       if (number > value) {
-//         newArr.push(number);
-//     }
-    
-//   }
 
-// return newArr;
-//   // Change code above this line
-// }
-
-// console.log(filterArray([12, 24, 8, 41, 76], 38));
 
 
 
@@ -261,39 +218,12 @@
 // }
 // console.log(calculateTotalPrice([12, 85, 37, 4]));
 
-// function getEvenNumbers(start, end) {
-//    // Change code below this line
-//     const EvenNumber = [];
-    
-//     for (let i = start; i <= end; i += 1) {
-//         if (i % 2 === 0) {
-//             EvenNumber.push(i);
-
-//         }
-//     }
-
-//     return EvenNumber;
-//     // Change code above this line
-// }
-  
-// console.log(getEvenNumbers(6, 12));
 
 
-// function includes(array, value) {
-//   // Change code below this line
-//    const valueToFind = value;
-//     let Boolean;
-//     for (const element of array) {
-//         if (element === value) {
-//             Boolean = element;
-//             console.log(element);
-//     }
-// }
-//     return Boolean === valueToFind;
 
-//   // Change code above this line
-// }
-// console.log(includes([1, 2, 3, 4, 5], 7));
+
+
+
 
 
 // function ifTwtWillCost(ifCource) {
@@ -315,33 +245,262 @@
 
 
 
-// Setup
-const recordCollection = {
-  2548: {
-    albumTitle: 'Slippery When Wet',
-    artist: 'Bon Jovi',
-    tracks: ['Let It Rock', 'You Give Love a Bad Name']
-  },
-  2468: {
-    albumTitle: '1999',
-    artist: 'Prince',
-    tracks: ['1999', 'Little Red Corvette']
-  },
-  1245: {
-    artist: 'Robert Palmer',
-    tracks: []
-  },
-  5439: {
-    albumTitle: 'ABBA Gold'
-  }
-};
+
+
+
+
+
+
+
+
+// function squareSum(numbers){
+//   let total = 0;
+// for (const number of numbers) {
+//   total += number * number;
+// }
+//   return total;
+// }
+
+// console.log(squareSum([1, 2]));
+
+
+// function solution(str){
+//   return str.split('').reverse().join('');
+
+// }
+
+// console.log(solution('world'));
+
+
+
+
+// function countSheeps(arrayOfSheep) {
+//   // TODO May the force be with you
+//   let total = 0;
+//   for (const sheep of arrayOfSheep) {
+//     if (sheep === true) {
+//       total += 1;
+//     }
+
+//   }
+//    return total;
+
+// }
+
+// console.log(countSheeps([true, true, true, false,
+//   true, true, true, true,
+//   true, false, true, false,
+//   true, false, false, true,
+//   true, true, true, true,
+//   false, false, true, true]));
+
+
+
+//   function solution(str, ending){
+//   // TODO: complete
+  
+//     return str.endsWith(ending);
+//   }
+
+// console.log(solution('abc', 'bc'));
+
+
+// function highAndLow(numbers) {
+  
+//   const maxNums = Math.max(...numbers.split(' '));
+//   const lowNums = Math.min(...numbers.split(' '));
+  
+//   return maxNums + ' ' + lowNums;
+// }
+
+// console.log(highAndLow("1 9 3 4 -5"));
+
+
+
+
+
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+
+// for (const product of products) {
+//   console.log(product);
+//   for (const key of Object.entries(product)) {
+//     console.log(key);
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function convertToInteger(str) {
+// return parseInt(str, 2);
+// }
+
+// console.log(convertToInteger("1111110"));
 
 // Only change code below this line
-function updateRecords(records, id, prop, value) {
-  if (records[id]) {
-    records[id][prop] = [value];
-  }
-  console.log(records);
-}
 
-updateRecords(recordCollection, 5439, 'tracks', 'gemme');
+
+  
+  
+
+
+
+//Destructuring Assignment to Assign Variables from Arrays
+
+// let a = 8, b = 6;
+// // Only change code below this line
+
+// [a, b] = [b, a];
+
+// console.log(a, b);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const source = [1,2,3,4,5,6,7,8,9,10];
+// function removeFirstTwo(list) {
+//   // Only change code below this line
+//   const [a, b, ...arr] = list;
+//   console.log(a);
+//   // const arr = list; // Change this line
+//   // Only change code above this line
+//   return arr;
+// }
+// const arr = removeFirstTwo(source);
+// console.log(arr);
+
+
+// const stats = {
+//   max: 56.78,
+//   standard_deviation: 4.34,
+//   median: 34.54,
+//   mode: 23.87,
+//   min: -0.75,
+//   average: 35.85
+// };
+
+// // Only change code below this line
+// //const half = (stats) => (stats.max + stats.min) / 2.0;
+// const half = ({max, min}) => (max + min) / 2.0; 
+// // Only change code above this line
+// console.log(half(stats));
+
+
+
+
+
+
+
+
+
+
+
+
+// function quickCheck(arr, elem) {
+//   // Only change code below this line
+//   console.log(arr.indexOf(elem));
+//   return arr.indexOf(elem) >= 0
+//   ;
+//   // Only change code above this line
+// }
+
+// console.log(quickCheck(["onions", "squash", "shallots"], "onions"));
+
+
+
+
+
+
+// const user = {
+//   tag: 'Mango',
+//   showTag() {
+//     console.log('showTag -> this', this);
+//     console.log('showTag -> this.tag', this.tag);
+//   }
+// };
+
+// const invokeAction = function (action) {
+//   console.log(action);
+//   action();
+// };
+
+// invokeAction(user.showTag);
+
+// let nestedArray =
+// [
+//   ['deep'],
+//   [
+//     ['deeper'], ['deeper'] 
+//   ],
+//   [
+//     [
+//       ['deepest'], ['deepest']
+//     ],
+//     [
+//       [
+//         ['deepest-est?']
+//       ]
+//     ]
+//   ]
+// ];
+
+// console.log(nestedArray[2][1][0][0][0]);
+
+
+
+
+
+
+//   function largestNum(array) {
+//     return array.reduce((acc, num) => {
+//         return acc > num ? acc : num;
+//       });
+//   };
+//   console.log(largestNum([54, 43, 12, 88, 76, 2]));
+
+
+
+function amountOfPages(summary){
+    let result = '';
+    let n = 0;
+
+    for (let i = 1; i <= summary; i++) {
+      result += i;
+      if (result.length === summary) {
+        n = i;
+        break;
+      }
+    }
+
+    return n;
+  }
+
+
+  console.log(amountOfPages(17));
